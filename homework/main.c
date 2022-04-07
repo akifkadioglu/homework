@@ -3,6 +3,8 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
+void toplamaislemi();
+
 int main(int argc, char *argv[]) {
 	int a;
 	int b;
@@ -10,6 +12,9 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&a);
 	printf("please give me a number again:\n");
 	scanf("%d",&b);
-	printf("result:\n%d",a+b);	
+	toplamaislemi(a,b);
 	return 0;
+}
+void toplamaislemi(a,b){
+	printf("result:\n%d",a+b);
 }
